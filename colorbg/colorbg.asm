@@ -3,8 +3,8 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Include external files containing useful definitions and macros
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-	include "..\vcs.h"
-	include "..\macro.h"
+	include "vcs.h"
+	include "macro.h"
 
 	seg code
 	org $F000      ; Define the origin of the ROM at $F000
