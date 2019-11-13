@@ -1,6 +1,9 @@
+# Generated files
+.DS_Store
 *.bin
 a.out
-.DS_Store
+*.lst
+*.sym
 
 /ar-lib
 /mdate-sh

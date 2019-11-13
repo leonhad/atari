@@ -1,5 +1,5 @@
 all: rainbow.asm
-	dasm rainbow.asm -f3 -v0 -ocart.bin
+	dasm rainbow.asm -f3 -v0 -scart.sym -lcart.lst -ocart.bin
 
 clean:
-	rm -f cart.bin
+	rm -f cart.bin a.out cart.sym cart.lst
