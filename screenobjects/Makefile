@@ -1,5 +1,5 @@
 all: screenobjects.asm
-	dasm screenobjects.asm -f3 -v0 -scart.sym -lcart.lst -ocart.bin
+	dasm screenobjects.asm -f3 -v0 -scart.sym -lcart.lst -ocart.a26
 
 clean:
-	rm -f cart.bin a.out cart.sym cart.lst
+	rm -f cart.bin cart.a26 a.out cart.sym cart.lst
