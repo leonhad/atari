@@ -178,6 +178,9 @@ JetSprite:
     .byte #%00001000         ;    #
     .byte #%00001000         ;    #
 
+; Possible:
+; JET_HIGHT = . - JetSprite
+
 JetSpriteTurn:
     .byte #%00000000         ;
     .byte #%00001000         ;    #
